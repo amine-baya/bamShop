@@ -1,0 +1,251 @@
+header
+{ 
+  background-color: var(--black);
+}
+.navbar
+{
+  padding: 0.7rem 1rem;
+  text-transform: none !important;
+  font-size: .85rem !important;
+}
+header span.logo
+{
+  color: var(--white);
+  transition: all ease .5s;
+  cursor: pointer;
+ transform: translateY(-4px);
+  margin-left: 36px;
+  
+}
+
+.header_logo{
+  
+  width: 150px;
+  height: 60px;
+}
+
+header span.logo:hover
+{
+  color: var(--gold);
+}
+
+header .form-inline {
+  margin: 0 auto;
+  text-align: center;
+  width: 50%;
+}
+.form-inline .form-control
+{
+  width: 80%;
+  border: 1px solid var(--gold);
+  box-shadow: 1px 1px 3px var(--gold);
+  border-radius: 5px 0 0 5px;
+}
+.form-inline button
+{
+  background-color: var(--gold);
+  border: 2px solid var(--gold); 
+  color: var(--black);
+  box-shadow: 1px 1px 3px var(--gold);
+  padding: 8.5px 15px;
+  border-left: 0px;
+  border-radius: 0 5px 5px 0;
+  outline: none;
+  width: 20%;
+}
+.form-inline button:hover
+{
+  background-color: var(--black);
+  color: var(--gold);
+  border: 2px solid var(--gold);
+  border-left: 0px;
+}
+.form-inline button:focus
+{
+  background-color: var(--gold);
+  border: 2px solid var(--gold);
+  color: var(--black);
+}
+ .navbar-light .navbar-nav span{
+   margin-left: 10px;
+ }
+  .navbar-light .navbar-nav span.icone{
+   margin-left: 0;
+ }
+ .navbar-light .navbar-nav span.span{
+   padding-top: .715rem;
+    padding-bottom: .715rem
+ }
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav span
+{
+  color: var(--white);
+  transition: all ease .5s;
+  cursor: pointer;
+   
+}
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav span:hover
+{
+  color: var(--gold);
+}
+.navbar-light .navbar-nav .nav-link:focus
+{
+  color: var(--gold);
+}
+.dropdown-toggle::after
+{
+  display: none;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu
+{
+  background-color: var(--black);
+  padding: 0;
+  left: -20%;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item
+{
+  color: var(--white);
+  transition: all ease .5s;
+  padding: 10px ;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item:hover
+{
+  color: var(--black);
+  background-color: var(--gold);
+}
+ .nav-item
+  {
+    margin-right: 0;
+  }
+
+  .cart_logo{
+    position: relative;
+      font-size: 23px;
+      transition: all ease-in-out .5;
+  }
+
+  .cart_number{
+    position: absolute;
+    top : -3px;
+    left:-1px;
+  }
+  .cart_logo:hover .cart_number{
+   top : -7px;
+   color: var(--gold);
+  }
+  .log_in_logo{
+    font-size: 25px;
+  }
+  .margin_logo{
+  margin-right: 20px;
+ 
+}
+.margin_logos{
+  margin-right: 60px;
+ 
+}
+#adminmenu{
+  margin-top: 4px;
+}
+
+.search_logo{
+font-size: 18px;
+transform: translateY(5px);
+}
+
+
+/* --------------------media --------------- */
+
+@media (max-width:575px ) {
+  
+.header_logo{
+  width: 100px;
+  height: 80px;
+}
+
+.navbar-nav
+  {
+    flex-direction: row;
+    transform: translateX(-40px);
+  }
+   .menu_margin
+  {
+    margin-right: 40px;
+    
+  }
+  .navbar-expand-lg .navbar-nav .dropdown-menu
+  {
+    position: absolute;
+  }
+  .form-inline {
+  margin: 20px auto 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+  .form-inline .form-control
+  {
+    width: 70%;
+    float: left;
+    
+  }
+  .nav-item
+  {
+    margin-right: 1rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px ) {
+  .navbar-nav
+  {
+    flex-direction: row;
+    transform: translateX(-40px);
+  }
+   .menu_margin
+  {
+    margin-right: 40px;
+  }
+  .navbar-expand-lg .navbar-nav .dropdown-menu
+  {
+    position: absolute;
+  }
+  .form-inline
+  {
+    margin: 20px auto 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .form-inline .form-control
+  {
+    width: 70%;
+    float: left;
+    
+  }
+  .nav-item
+  {
+    margin-right: 1rem;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px ) {
+  .navbar-nav
+  {
+    flex-direction: row;
+  }
+  .navbar-expand-lg .navbar-nav .dropdown-menu
+  {
+    position: absolute;
+  }
+
+}
+@media (min-width: 993px) and (max-width: 1200px ) {
+  .navbar-nav
+  {
+    flex-direction: row;
+  }
+  .navbar-expand-lg .navbar-nav .dropdown-menu
+  {
+    position: absolute;
+  }
+ 
+}

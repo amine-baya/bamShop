@@ -1,0 +1,48 @@
+.avis_header
+{
+    margin-bottom: 50px;
+}
+
+.avis_header .avis_span
+{
+    float: right;
+    transform: translateY(-120%);
+}
+.avis_header .avis_span h5
+{
+    display: inline-block;
+}
+.avis_header  span
+{
+    text-align: right;
+    
+    display: inline-block;
+
+}
+.avis_body
+{
+    position: relative;
+    margin-bottom: 100px;
+}
+.avis_body::after
+{
+    content: '';
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 1px;
+    width: 50%;
+    background-color:  var(--gold);
+    border-radius: 50%;
+}
+
+.avis_body p
+{
+    padding-left: 20px;
+}
+
+.avis_body span
+{
+    text-align: right;
+}

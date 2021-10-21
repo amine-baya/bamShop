@@ -1,0 +1,206 @@
+#featured{
+   height: 350px;
+	cursor: pointer;
+	width:100%; 
+}
+#smallFeatured{
+	margin-bottom: 16px;
+	width:100%;
+	height: 75px;
+}
+
+.Breadcrumb-style a{
+	text-decoration: none !important;
+	color: var(--gray) !important;
+}
+
+
+#img-zoom-container{
+	z-index: 1;
+	position: relative;
+     overflow: hidden;
+}
+
+
+.description_product_index{
+	z-index: -1;
+}
+.avis-client{
+margin-top:70px;
+}
+
+
+/*************SWIPER************/
+.swiper-container
+{
+    overflow-x: clip;
+    overflow-y: visible;
+    
+}
+.swiper-button-prev, .swiper-button-next
+ {
+     color: var(--gold); 
+     top: -30px;
+ }
+.mahboulet_ESS .swiper-button-prev, .swiper-container-rtl .swiper-button-next 
+{
+
+    left: 94%;
+}
+
+.mahboulet_ESS .swiper-button-prev:after, .swiper-button-next:after
+{
+    font-size: 20px;
+}
+
+.swiper-pagination-bullet-active
+{
+    background-color: var(--gold);
+}
+
+/*********************************************************************/
+    #lightbox {
+		position: fixed;
+		z-index: 1000;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0,0,0,.8);
+		display: none;
+	}
+	#lightbox.active {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	#ija{
+		width: 700px;
+		height: 700px;
+	}
+
+	.zoom_button
+	{
+		position: absolute;
+		right: 0;
+		top: 0;
+		z-index: 10;
+		transform: translateX(-45%);
+		cursor: pointer;
+	}
+
+	.zoom_button i{
+		background-color: rgba(56, 56, 56, 0.3);
+		color: white;
+		padding: 10px;
+	}
+
+
+@media (max-width:575px ) {
+
+	#featured{
+   height: 270px;
+	cursor: pointer;
+	width:100%;
+}
+#smallFeatured{
+    
+	width:95%; 
+	height: 60px;
+	margin-bottom: 5px;
+	position: absolute;
+}
+#lens{
+	height: 100px;
+	width: 100px;
+}
+
+.flash_title{
+	font-size: 16px;
+	text-align: center
+}
+.mahboulet_ESS .promis_product .h4{
+	font-size: 14px;
+}
+.mahboulet_ESS .promis_product .h4::after{
+	display: none;
+}
+.avis-client h2{
+	font-size: 18px;
+}
+.mahboulet_ESS .swiper-button-prev, .swiper-button-next
+{
+	display: none;
+}
+
+}
+
+
+
+
+@media (min-width: 576px) and (max-width: 768px ) {
+#smallFeatured{
+    
+	width:95%; 
+	height: 60px;
+	margin-bottom: 8px;
+	position: absolute;
+	
+}
+#lens{
+	height: 120px;
+	width: 120px;
+}
+.mahboulet_ESS .promis_product .h4::after{
+	display: none;
+}
+
+.mahboulet_ESS .promis_product .h4{
+	font-size: 18px;
+}
+
+.avis-client h2{
+	font-size: 19px;
+}
+.mahboulet_ESS .swiper-button-prev, .swiper-button-next
+{
+	display: none;
+}
+.flash_title{
+	text-align: center
+}
+}
+
+
+
+
+
+@media (min-width: 769px) and (max-width: 992px ) {
+  
+#smallFeatured{
+    
+	width:200px; 
+	height: 60px;
+	margin-bottom: 6px;
+	
+}
+#lens{
+	height: 100px;
+	width: 100px;
+}
+.mahboulet_ESS .promis_product .h4::after{
+	display: none;
+}
+
+.mahboulet_ESS .promis_product .h4{
+	font-size: 18px;
+}
+
+.avis-client h2{
+	font-size: 14px;
+}
+
+.flash_title {
+	font-size: 17px;
+}
+
+}
